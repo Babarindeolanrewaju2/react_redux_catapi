@@ -20,7 +20,6 @@ const store = createStore(
         sagaMiddleware,
         loggerMiddleware ))
 
-//we need to run and pass a saga as parameter
 sagaMiddleware.run(watchFetchMoreCatsSaga)
 
 
